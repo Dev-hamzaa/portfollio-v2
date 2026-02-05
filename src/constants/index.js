@@ -109,14 +109,13 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Co Working Space",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A web application for a co working space to manage their clients and their bookings.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Built the backend with Node.js and MongoDB for data modeling and storage of clients and bookings.",
+      "Implemented real-time updates for bookings and availability using sockets.",
+      "Developed the frontend with React and Tailwind CSS for a seamless user experience.",
     ],
     href: "",
     logo: "",
@@ -124,40 +123,38 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "Node.js",
+        path: "/assets/logos/nodejs.png",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "PostgreSQL",
+        path: "/assets/logos/postgres.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Aylormade CRM",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "A web application for a fashion company to manage their clients and their orders.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Developed the backend with Node.js and MongoDB for data modeling and storage of clients and orders.",
+      "Built API layer for client and order management used by the web application.",
     ],
-    href: "",
+    href: "https://aylormade-crm.com/",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/crm.png",
     tags: [
       {
         id: 1,

@@ -65,7 +65,7 @@ const About = () => {
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "20deg", top: "10%", left: "38%" }}
+              style={{ rotate: "20deg", top: "15%", left: "65%" }}
               text="Prisma"
               containerRef={grid2Container}
             />
